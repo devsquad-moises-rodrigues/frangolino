@@ -1,6 +1,6 @@
 <?php
 
-class User
+abstract class User
 {
-
+    public abstract function create(array $data): void;
 }
